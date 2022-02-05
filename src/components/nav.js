@@ -24,7 +24,7 @@ const Nav =  ({name, updateName}) => {
     }
 
 
-    if (name === undefined){
+    if ((name === undefined) || (name === '')) {
         menu = (
             <div className="collapse navbar-collapse" id="navbarCollapse">
             <ul className="navbar-nav me-auto mb-2 mb-md-0">
